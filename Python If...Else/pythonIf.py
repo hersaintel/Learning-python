@@ -12,7 +12,7 @@ Python supports the usual logical conditions from mathematics:
 a = 33
 b = 200
 if b > a:
-    print("b is greater than a)
+    print("b is greater than a")
 
 #Multiple statements in an if block:
 age = 20
@@ -26,3 +26,8 @@ if age >= 18:
 is_logged_in = True
 if is_logged_in:
     print("Welcome back!")
+
+#Checking if a number is positive:
+number = 15
+if number > 0:
+    print(f"{number} is a positive number")
